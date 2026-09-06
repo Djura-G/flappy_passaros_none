@@ -1,0 +1,23 @@
+Tela do jogo
+	Background
+	Contador de pontos
+	Contador de peixes
+	Nível de dificuldade
+	Pássaro do jogador
+	Peixe coletável
+	
+	Obstáculos
+		pássaro inimigo
+		árvore
+
+Tela inicial
+	Background
+	Botão de iniciar jogo
+	Botão da Loja
+	Botão de desligar efeitos
+
+Tela da Loja
+	Background
+	Contador de peixes coletados
+	Um botão para cada opção de skin
+	Botão para voltar à tela inicial
