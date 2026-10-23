@@ -1,12 +1,26 @@
 /// @description 
+
+//se estiver com o mouse por cima e o item está desbloqueado, ele aparece verde escuro
 if selected and bloqueado == false
 {
-	draw_sprite_ext(spr_bloqueado, !bloqueado, x, y, 2.5, 2.5, 0, c_gray, 1);
+	draw_sprite_ext(spr_bloqueado, 0, x, y, 2.5, 2.5, 0, c_gray, 1);
 }
+
+//se ele não tá com o mouse por cima, ou tá bloqueado, permanece vermelho sempre
 else
 {
-	draw_sprite_ext(spr_bloqueado, !bloqueado, x, y, 2.5, 2.5, 0, c_white, 1);
+	if selected
+	{
+		draw_sprite_ext(spr_bloqueado, bloqueado, x, y, 2.5, 2.5, 0, c_gray, 1);	
+	}
+	else
+	{
+		draw_sprite_ext(spr_bloqueado, bloqueado, x, y, 2.5, 2.5, 0, c_white, 1);
+	}
 }
+
+//o botão é verde por padrão, verde escuro quando desbloqueado e selecionado
+//vermelho quando bloqueado
 draw_self();
 
 //desenhando botão de voltar

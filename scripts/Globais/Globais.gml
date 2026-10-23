@@ -9,7 +9,7 @@
 	global.pontos = 0;
 	
 	//quantidade de peixes (coletável)
-	global.peixes = 0;
+	global.peixes = 25;
 	
 	//verificar se o jogador morreu
 	global.perdeu = 0;
@@ -25,6 +25,11 @@
 	
 	//saber se a transicao foi iniciada
 	global.transicao = 0;
+	
+	//veerificando se o item está bloqueado
+	global.itens_bloqueados = [false, true, true];
+	
+	global.sprite_player = spr_arara;
 	
 #endregion
 

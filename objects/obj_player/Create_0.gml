@@ -1,5 +1,5 @@
 /// @description 
 
-//gravity = .2;
+sprite_index = global.sprite_player;
 alarm[1] = 60;
 image_speed = 0;
