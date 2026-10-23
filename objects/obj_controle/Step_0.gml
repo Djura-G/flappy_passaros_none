@@ -9,6 +9,7 @@ if global.perdeu = 0
 		
 		if global.pontos >= global.lista_pontos[_item_lista]
 		{
+			audio_play_sound(snd_level_up, 0, 0);
 			global.level++;
 			
 			layer_hspeed("bg_arvores", - global.level * .5);
