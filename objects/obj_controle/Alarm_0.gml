@@ -16,11 +16,11 @@ if global.level <= 3
 }
 else if global.level > 3 and global.level <= 6
 {
-	_tempo = game_get_speed(gamespeed_fps) * random_range(2, 4);
+	_tempo = game_get_speed(gamespeed_fps) * random_range(1.5, 4);
 }
 else
 {
-	_tempo = game_get_speed(gamespeed_fps) * random_range(1.5, 4);
+	_tempo = game_get_speed(gamespeed_fps) * random_range(1.5, 3);
 }
 
 alarm[0] = _tempo;

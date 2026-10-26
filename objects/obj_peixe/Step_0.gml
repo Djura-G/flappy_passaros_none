@@ -2,7 +2,7 @@
 
 if x <= -215
 {
-	//instance_destroy();
+	instance_destroy();
 }
 
 if global.perdeu
