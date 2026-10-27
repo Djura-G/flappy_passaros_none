@@ -6,7 +6,7 @@ if global.perdeu
 }
 
 var _pass_y = irandom_range(48, 136);
-instance_create_layer(700, _pass_y, "Obstaculos", obj_passaro);
+instance_create_layer(700, _pass_y, "Passaros", obj_passaro);
 
 var _tempo = -1;
 

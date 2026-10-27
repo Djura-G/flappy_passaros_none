@@ -6,7 +6,7 @@ if global.perdeu
 }
 
 var _arv_y = irandom_range(360, 456);
-instance_create_layer(700, _arv_y, "Obstaculos", obj_arvore);
+instance_create_layer(700, _arv_y, "Arvores", obj_arvore);
 
 var _tempo = -1;
 
